@@ -32,7 +32,7 @@ The query returns the customer names stored in the Customers table.
 
 I selected only the `CustomerName` column because the business question asks specifically for customer names.
 
-Using `SELECT *` would retrieve every column in the table, including information that is not necessary for this question.
+Using SELECT * would retrieve every column in the table, including information that is not necessary for this question.
 
 Selecting only the required columns makes the query more focused and easier to understand.
 
