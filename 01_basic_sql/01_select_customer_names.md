@@ -14,7 +14,7 @@ Retrieve the names of all customers stored in the Customers table.
 
 ## 3. SQL Solution
 
-```sql
+
 SELECT CustomerName
 FROM Customers;
 
@@ -45,7 +45,7 @@ To validate the result, I can:
 
 For example:
 
-sql
+
 SELECT COUNT(*) AS TotalCustomers
 FROM Customers;
 ```
@@ -89,7 +89,7 @@ Retrieve all records and columns from the following Northwind database tables:
 
 **Retrieve all products:**
 
-```sql
+
 SELECT *
 FROM Products;
 
@@ -105,14 +105,14 @@ FROM Employees;
 
 **Retrieve all suppliers:**
 
-sql
+
 SELECT *
 FROM Suppliers;
 
 ## 
 **Retrieve all orders:**
 
-sql
+
 SELECT *
 FROM Orders;
 
@@ -144,7 +144,7 @@ To validate the results, I can compare the number of records returned by each qu
 
 For example:
 
-sql
+
 SELECT COUNT(*) AS TotalProducts
 FROM Products;
 
