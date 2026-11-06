@@ -26,12 +26,19 @@ I will use SQL exercises and practical problems to build a strong foundation for
 
 text
 sql-learning-and-portfolio/
-│
+
+
+
 ├── README.md
+
 ├── 01_basic_sql/
+
 ├── 02_intermediate_sql/
+
 ├── 03_advanced_sql/
+
 ├── 04_database_design/
+
 └── 05_real_world_analysis/
 ```
 
