@@ -82,7 +82,7 @@ Retrieve all records and columns from the following Northwind database tables:
 - Employees
 - Suppliers
 - Orders
-
+**===============================
 ## 3. SQL Solution
 
 **Retrieve all products:**
