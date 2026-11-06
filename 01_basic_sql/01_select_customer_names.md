@@ -94,21 +94,21 @@ FROM Products;
 
 **Retrieve all employees:**
 
-```sql
+sql
 SELECT *
 FROM Employees;
 
 
 **Retrieve all suppliers:**
 
-```sql
+sql
 SELECT *
 FROM Suppliers;
 
 
 **Retrieve all orders:**
 
-```sql
+sql
 SELECT *
 FROM Orders;
 
