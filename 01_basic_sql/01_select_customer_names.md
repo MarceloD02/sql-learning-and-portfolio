@@ -16,7 +16,7 @@ Retrieve the names of all customers stored in the Customers table.
 
 ```sql
 SELECT CustomerName
-FROM Customers;```
+FROM Customers;
 
 
 ## 4. Explanation
