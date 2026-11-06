@@ -93,7 +93,7 @@ Retrieve all records and columns from the following Northwind database tables:
 SELECT *
 FROM Products;
 
-##
+
 
 **Retrieve all employees:**
 
