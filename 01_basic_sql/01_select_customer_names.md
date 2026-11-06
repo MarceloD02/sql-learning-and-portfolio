@@ -90,7 +90,7 @@ Retrieve all records and columns from the following Northwind database tables:
 
 **Retrieve all products:**
 
-
+``` sql 
 SELECT *
 FROM Products;
 
