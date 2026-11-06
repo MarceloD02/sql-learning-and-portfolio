@@ -57,3 +57,96 @@ The SELECT statement retrieves data from a database table.
 The `FROM` clause identifies the source table.
 
 A good SQL query retrieves only the information necessary to answer the question.
+
+Exercise 02 — Retrieve All Records from a Table
+I recommend documenting the four queries together because they demonstrate the same SQL concept
+
+
+# Exercise 02 — SELECT *: Retrieve All Records from Tables
+
+## 1. Business Question
+
+Retrieve all records and columns from the following Northwind database tables:
+
+- Products
+- Employees
+- Suppliers
+- Orders
+
+## 2. Database Information
+
+**Database:** Northwind
+
+**Tables:**
+- Products
+- Employees
+- Suppliers
+- Orders
+
+## 3. SQL Solution
+
+**Retrieve all products:**
+
+sql
+SELECT *
+FROM Products;
+```
+
+**Retrieve all employees:**
+
+sql
+SELECT *
+FROM Employees;
+```
+
+**Retrieve all suppliers:**
+
+sql
+SELECT *
+FROM Suppliers;
+```
+
+**Retrieve all orders:**
+
+sql
+SELECT *
+FROM Orders;
+```
+
+## 4. Explanation
+
+- SELECT specifies which columns to retrieve.
+- `*` is a wildcard that tells SQL to retrieve all columns from the specified table.
+- `FROM` identifies the source table.
+- The table name determines which dataset will be returned.
+
+By default, these queries return all rows and all columns from their respective tables.
+
+## 5. Why This Approach?
+
+I used `SELECT *` because the objective is to explore the complete structure and contents of each table.
+
+This approach is useful during initial database exploration because it allows us to inspect the available columns and understand what information each table contains.
+
+However, in production environments and larger databases, explicitly selecting the required columns is generally preferable. It avoids retrieving unnecessary data and can improve query efficiency.
+
+## 6. Validation
+
+To validate the results, I can compare the number of records returned by each query with the total number of records in its respective table.
+
+For example:
+
+sql
+SELECT COUNT(*) AS TotalProducts
+FROM Products;
+```
+
+I can also inspect the column names to understand the structure of each table.
+
+## 7. Key Learning
+
+The `SELECT *` statement retrieves all columns from a specified table.
+
+When used without a `WHERE` condition, it returns all records in that table.
+
+This technique is particularly useful for exploring unfamiliar databases and understanding their structure before writing more specific queries.
