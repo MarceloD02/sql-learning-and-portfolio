@@ -21,7 +21,7 @@ FROM Customers;
 
 ## 4. Explanation
 
-- `SELECT` specifies which column we want to retrieve.
+- SELECT` specifies which column we want to retrieve.
 - `CustomerName` is the column containing customer names.
 - `FROM` specifies the table from which the data will be retrieved.
 - `Customers` is the source table.
