@@ -21,10 +21,10 @@ FROM Customers;
 
 ## 4. Explanation
 
-- SELECT` specifies which column we want to retrieve.
-- `CustomerName` is the column containing customer names.
-- `FROM` specifies the table from which the data will be retrieved.
-- `Customers` is the source table.
+- SELECT specifies which column we want to retrieve.
+- CustomerName is the column containing customer names.
+- FROM specifies the table from which the data will be retrieved.
+- Customers is the source table.
 
 The query returns the customer names stored in the Customers table.
 
@@ -45,14 +45,14 @@ To validate the result, I can:
 
 For example:
 
-```sql
+sql
 SELECT COUNT(*) AS TotalCustomers
 FROM Customers;
 ```
 
 ## 7. Key Learning
 
-The `SELECT` statement retrieves data from a database table.
+The SELECT statement retrieves data from a database table.
 
 The `FROM` clause identifies the source table.
 
