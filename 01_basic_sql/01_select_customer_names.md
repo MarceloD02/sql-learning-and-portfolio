@@ -82,10 +82,9 @@ Retrieve all records and columns from the following Northwind database tables:
 - Employees
 - Suppliers
 - Orders
-- 
+ 
 ## 
 
-===============================
 ## 3. SQL Solution
 
 **Retrieve all products:**
@@ -94,6 +93,7 @@ Retrieve all records and columns from the following Northwind database tables:
 SELECT *
 FROM Products;
 
+##
 
 **Retrieve all employees:**
 
@@ -101,6 +101,7 @@ sql
 SELECT *
 FROM Employees;
 
+##
 
 **Retrieve all suppliers:**
 
@@ -108,13 +109,14 @@ sql
 SELECT *
 FROM Suppliers;
 
-
+## 
 **Retrieve all orders:**
 
 sql
 SELECT *
 FROM Orders;
 
+##
 
 ## 4. Explanation
 
@@ -124,6 +126,7 @@ FROM Orders;
 - The table name determines which dataset will be returned.
 
 By default, these queries return all rows and all columns from their respective tables.
+##
 
 ## 5. Why This Approach?
 
@@ -132,6 +135,7 @@ I used SELECT * because the objective is to explore the complete structure and c
 This approach is useful during initial database exploration because it allows us to inspect the available columns and understand what information each table contains.
 
 However, in production environments and larger databases, explicitly selecting the required columns is generally preferable. It avoids retrieving unnecessary data and can improve query efficiency.
+##
 
 ## 6. Validation
 
