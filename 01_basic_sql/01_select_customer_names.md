@@ -141,9 +141,10 @@ However, in production environments and larger databases, explicitly selecting t
 
 To validate the results, I can compare the number of records returned by each query with the total number of records in its respective table.
 
+
 For example:
 
-```sql
+sql
 SELECT COUNT(*) AS TotalProducts
 FROM Products;
 
