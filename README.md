@@ -1,8 +1,10 @@
 # sql-learning-and-portfolio
+## Project Goal
 
-The goal is to develop practical SQL skills and demonstrate the ability to understand database structures, translate business questions into SQL queries, analyze data, and validate results.
+The goal of this project is to develop practical SQL skills and demonstrate the ability to understand database structures, translate business questions into SQL queries, analyze data, and validate results.
 
-I will use SQL exercises and practical problems to build a strong foundation for data-focused roles.
+Through a structured collection of 100 SQL questions, ranging from beginner to advanced levels, I will strengthen my SQL knowledge while documenting each solution, explaining my reasoning, and demonstrating my problem-solving approach. This project aims to build a solid foundation for data-focused career opportunities.
+
 
 ## Objectives
 
