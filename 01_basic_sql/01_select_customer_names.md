@@ -15,7 +15,7 @@ Retrieve the names of all customers stored in the Customers table.
 ## 3. SQL Solution
 
 
-SELECT CustomerName
+``` SELECT CustomerName
 FROM Customers;
 
 
@@ -97,8 +97,8 @@ FROM Products;
 
 **Retrieve all employees:**
 
-sql
-SELECT *
+
+``` SELECT *
 FROM Employees;
 
 ##
@@ -106,14 +106,14 @@ FROM Employees;
 **Retrieve all suppliers:**
 
 
-SELECT *
+``` SELECT *
 FROM Suppliers;
 
 ## 
 **Retrieve all orders:**
 
 
-SELECT *
+``` SELECT *
 FROM Orders;
 
 ##
@@ -145,7 +145,7 @@ To validate the results, I can compare the number of records returned by each qu
 For example:
 
 
-SELECT COUNT(*) AS TotalProducts
+``` SELECT COUNT(*) AS TotalProducts
 FROM Products;
 
 
