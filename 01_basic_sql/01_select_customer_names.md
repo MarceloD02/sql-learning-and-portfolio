@@ -15,8 +15,8 @@ Retrieve the names of all customers stored in the Customers table.
 ## 3. SQL Solution
 
 sql
-SELECT CustomerName
-FROM Customers;
+```SELECT CustomerName
+FROM Customers;```
 
 
 ## 4. Explanation
