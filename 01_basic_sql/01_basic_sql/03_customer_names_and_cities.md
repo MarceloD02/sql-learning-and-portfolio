@@ -32,7 +32,7 @@ FROM Customers;
 ```sql
 SELECT CustomerName AS [Name of the Customer],
        City AS [Customer City]
-FROM Customers;
+         FROM Customers;
 ```
 
 Both queries retrieve the same information. The difference is that the second query uses aliases to customize the column names displayed in the results.
