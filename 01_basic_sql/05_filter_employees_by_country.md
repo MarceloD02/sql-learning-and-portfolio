@@ -23,8 +23,8 @@ The objective is to retrieve employee names only when their Country value is USA
 
 ```sql
 SELECT FirstName, LastName
-FROM Employees
-WHERE Country = 'USA';
+  FROM Employees
+     WHERE Country = 'USA';
 ```
 
 **Approach 2 — Using aliases**
@@ -32,8 +32,8 @@ WHERE Country = 'USA';
 ```sql
 SELECT FirstName AS [Employee First Name],
        LastName AS [Employee Last Name]
-FROM Employees
-WHERE Country = 'USA';
+         FROM Employees
+            WHERE Country = 'USA';
 ```
 
 Both queries retrieve the same employee records. The second query uses aliases to customize the column headings.
