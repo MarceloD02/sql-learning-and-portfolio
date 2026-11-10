@@ -85,3 +85,5 @@ I also learned that:
 - `WHERE` determines which rows are returned.
 - The equality operator (`=`) compares values.
 - Text values must be enclosed in single quotation marks.
+
+
