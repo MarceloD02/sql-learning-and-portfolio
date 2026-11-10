@@ -1,4 +1,4 @@
-# Exercise 09 — WHERE: Filter Employees by Country
+# Exercise 5 — WHERE: Filter Employees by Country
 
 ## 1. Business Question
 
