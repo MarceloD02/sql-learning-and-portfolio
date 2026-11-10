@@ -80,8 +80,8 @@ SELECT COUNT(*) AS TotalEmployeesInUSA
 FROM Employees
 WHERE Country = 'USA';
 
-
- Understanding DISTINCT
+```
+## Understanding DISTINCT
 
 The `DISTINCT` keyword is used to eliminate duplicate combinations of values from the query results.
 
