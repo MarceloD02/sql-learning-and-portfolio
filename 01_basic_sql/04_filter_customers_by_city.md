@@ -1,4 +1,4 @@
-# Exercise 08 — WHERE: Filter Customers by City
+# Exercise 04 — WHERE: Filter Customers by City
 
 ## 1. Business Question
 
