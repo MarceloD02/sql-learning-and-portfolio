@@ -1,4 +1,4 @@
-# Exercise 10 — WHERE: Filter Products by Price
+# Exercise 6 — WHERE: Filter Products by Price
 
 ## 1. Business Question
 
