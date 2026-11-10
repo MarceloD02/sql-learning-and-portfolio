@@ -79,6 +79,23 @@ I can also count how many employees satisfy this condition:
 SELECT COUNT(*) AS TotalEmployeesInUSA
 FROM Employees
 WHERE Country = 'USA';
+
+**Understanding DISTINCT**
+
+The `DISTINCT` keyword is used to eliminate duplicate combinations of values from the query results.
+
+For example:
+
+```sql
+SELECT DISTINCT Country
+FROM Employees;
+```
+
+This query returns each country only once, even if multiple employees live in the same country.
+
+In this exercise, I used `DISTINCT` together with the `WHERE` clause to demonstrate how SQL can filter records and return unique values.
+
+However, `DISTINCT` is not necessary when filtering for only one specific country, because the `WHERE` condition already restricts the result to that country.
 ```
 
 ## 7. Key Learning
