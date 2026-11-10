@@ -99,7 +99,9 @@ In this exercise, I used `DISTINCT` together with the `WHERE` clause to demonstr
 However, `DISTINCT` is not necessary when filtering for only one specific country, because the `WHERE` condition already restricts the result to that country.
 ```
 
-## 7. ***Key Learning***
+```
+
+## 7. Key Learning
 
 This exercise reinforces the use of the `WHERE` clause, which is used to filter records based on specific conditions.
 
@@ -110,4 +112,4 @@ I also learned that:
 - `WHERE` determines which rows are returned.
 - The equality operator (`=`) compares values.
 - Text values must be enclosed in single quotation marks.
-- Aliases can be used to customize column headings.
+- Aliases can be used to customize column headings.```
