@@ -1,4 +1,4 @@
-# Exercise 11 — WHERE: Filter Products by Price (Less Than)
+# Exercise 07 — WHERE: Filter Products by Price (Less Than)
 
 ## 1. Business Question
 
