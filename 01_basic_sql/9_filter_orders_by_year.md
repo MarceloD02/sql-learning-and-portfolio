@@ -70,6 +70,8 @@ Including both columns makes the results more informative and allows us to under
 
 If the business question only required identifying the orders, selecting OrderID alone would be sufficient. However, including CustomerID provides additional context that can be useful for further analysis.
 
+OrderID is the primary key identifying an order, while CustomerID is a foreign key that connects the order to the Customers table
+
 **Why not use `WHERE Year = 1997` instead?**
 
 The `Orders` table contains an `OrderDate` column, not a separate `Year` column. The year is stored as part of the complete date value.
