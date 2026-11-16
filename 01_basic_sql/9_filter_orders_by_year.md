@@ -62,6 +62,14 @@ The `YEAR()` function is used to extract the year from the OrderDate column. The
 
 I selected OrderID, CustomerID, and OrderDate because these columns allow me to identify each order, the customer who placed it, and when it was made.
 
+**Someone may ask, why select CustomerID if OrderID already identifies each order?**
+
+Although OrderID uniquely identifies each order, CustomerID provides additional information by identifying the customer who placed it.
+
+Including both columns makes the results more informative and allows us to understand not only which orders were placed during 1997, but also which customers placed them.
+
+If the business question only required identifying the orders, selecting OrderID alone would be sufficient. However, including CustomerID provides additional context that can be useful for further analysis.
+
 **Why not use `WHERE Year = 1997` instead?**
 
 The `Orders` table contains an `OrderDate` column, not a separate `Year` column. The year is stored as part of the complete date value.
