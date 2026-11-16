@@ -1,4 +1,4 @@
-# Exercise 12 — WHERE: Filter Customers by Country
+# Exercise 8— WHERE: Filter Customers by Country
 
 ## 1. Business Question
 
