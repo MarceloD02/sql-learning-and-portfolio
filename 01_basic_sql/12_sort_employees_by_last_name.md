@@ -40,7 +40,6 @@ Both queries retrieve the same employee records in alphabetical order by last na
 ## 4. Explanation
 
 - `SELECT` specifies the columns we want to retrieve.
-- `EmployeeID` identifies each employee.
 - `FirstName` contains the first names of the employees.
 - `LastName` contains the last names of the employees.
 - `FROM` identifies the source table.
