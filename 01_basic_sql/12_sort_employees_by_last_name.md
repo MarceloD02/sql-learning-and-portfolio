@@ -1,4 +1,4 @@
-# Exercise 18 — ORDER BY: Sort Employees by Last Name
+# Exercise 12 — ORDER BY: Sort Employees by Last Name
 
 ## 1. Business Question
 
