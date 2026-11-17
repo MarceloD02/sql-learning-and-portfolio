@@ -12,7 +12,6 @@ Retrieve all employees and display them in alphabetical order by last name.
 
 **Columns:**
 
-- EmployeeID
 - FirstName
 - LastName
 
@@ -22,14 +21,14 @@ The objective is to retrieve employee information and arrange the records alphab
 
 **Approach 1 — Using the original column names**
 ```sql
-SELECT EmployeeID, FirstName, LastName
+SELECT FirstName, LastName
 FROM Employees
 ORDER BY LastName ASC;
 ```
 
 **Approach 2 — Using aliases**
 ```sql
-SELECT EmployeeID AS [Employee ID],
+SELECT 
        FirstName AS [First Name],
        LastName AS [Last Name]
 FROM Employees
@@ -68,7 +67,7 @@ It is important to understand that `ASC` is optional because SQL uses ascending 
 
 To validate the results, I can execute:
 ```sql
-SELECT EmployeeID, FirstName, LastName
+SELECT FirstName, LastName
 FROM Employees
 ORDER BY LastName ASC;
 ```
@@ -77,7 +76,7 @@ I can inspect the results and confirm that the employee records are arranged alp
 
 I can also compare the result with descending order:
 ```sql
-SELECT EmployeeID, FirstName, LastName
+SELECT FirstName, LastName
 FROM Employees
 ORDER BY LastName DESC;
 ```
