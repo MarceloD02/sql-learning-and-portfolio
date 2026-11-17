@@ -56,7 +56,7 @@ I used the `ORDER BY` clause because the business question asks for employees to
 
 Without the `ORDER BY` clause, SQL does not guarantee that the employee records will be displayed in alphabetical order.
 
-I selected EmployeeID, FirstName, and LastName because they allow me to identify each employee and distinguish between employees who might share the same last name.
+I selected FirstName, and LastName because they allow me to identify each employee and distinguish between employees who might share the same last name.
 
 The `ASC` keyword specifies ascending order. For text values, this generally means alphabetical order from A to Z.
 
